@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document form</title>
+</head>
+<body>
+    <h2>Student Form</h2>
+
+<form action="">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"  placeholder="Type your name in all CAPS" pattern="[A-Z]*"   ><br>
+
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"  placeholder= "Type your name in all CAPS" pattern="[A-Z]*"  ><br><br>
+
+
+  <label for="email"> Email id:</label>
+  <input type="email"id="email" name="email"  placeholder=" Type your mail id" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+
+
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="012-345-6789" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br><br>
+  <p>Please enter your gender</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">female</label><br>
+<label for="Branch">Enter your Branch:</label>
+<select name="Branch" id="Branch">
+  <option value="Computer science engineering">Computer Science engineering</option>
+  <option value="Information Technology">Information Technology</option>
+  <option value="Electronics and Telecommunication">Electronics and Telecommunication</option>
+  <option value="Electrical and electronics">Electrical and electronics</option>
+  <option value="Electrical engineering">Electrical engineering</option>
+  <option value="Mechanical engineering">Mechanical Engineering</option>
+  <option value="Civil engineering">Civil engineering</option>
+  <option value="Production engineering">Production engineering</option>
+  <option value="Metallurgy and material engineering">Metallurgy and material engineering</option>
+  <option value="Chemical engineering">Chemical engineering</option>
+</select>
+<br><br>
+<label for="Year">Enter your Btech year:</label>
+<select name="year" id="year">
+  <option value="First">First</option>
+  <option value="Second">Second</option>
+  <option value="Third">Third</option>
+  <option value="Fourth">Fourth</option>
+</select>
+<br><br>
+   
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
